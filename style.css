@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "Press";
+	src: url('PressStart2P.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Bebas";
+	src: url('BebasNeue-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.fontTitulo{
+	font-family: 'Press', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 2px;
+	
+}
+
+h1 img {
+	width: 200px;
+	border: 2px solid #3b0c91;
+  	border-radius: 25px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #3b0c91;
+	text-decoration: underline;
+}
+
+.main {
+	background: #FEFEFE;
+}
+
+.abas {
+	font-family: 'Bebas', Helvetica, sans-serif;
+	position:relative;
+	font-size: 25px;
+	margin: 1em 1em 1em 7em;
+	display: inline-block;
+}
+
+.gif {
+    width: 350px;
+    margin: 1em auto;
+	
+}
+
+.titulotexto1{
+	font-family: 'Press';
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.texto{
+	font-family: 'Bebas';
+	padding: 1em;
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+.fontTexto{
+	font-family: 'Bebas', Helvetica, sans-serif;
+}
+
+#ft1 {
+	margin-left: 450px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.png");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin: 20px 0 0;
+}
+
+.logofooter{
+	width: 120px;
+	border: 2px solid #3b0c91;
+	border-radius: 25px;
+}
